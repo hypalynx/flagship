@@ -17,7 +17,7 @@ flagship is prepared to take you anywhere.
   - typescript + jsx/tsx supported
   - build tool for both frontend + backend
 - typescript (great for validating frontend components)
-- zod (create data schemas to test at the edge of your system)
+- [zod](https://zod.dev/) (create data schemas to test at the edge of your system)
 - pino (structured logging)
 
 ### Server
@@ -39,6 +39,10 @@ flagship is prepared to take you anywhere.
 - Litestream (backup SQLite on the fly)
 - Grafana and friends? (is there anything more lightweight/just
   logs analysis? what about alerts?)
+- Using Deno's built in support for [OpenTelemetry](https://docs.deno.com/runtime/fundamentals/open_telemetry/)
+- `k3s` for single VPS deploys with:
+  - Automatic SSL via Traefik + cert-manager
+  - Loki/Grafana/Tempo/Prometheus
 
 ## On CSS
 
@@ -53,5 +57,3 @@ them out the way when things get customised.
 CSS variables are also used to allow for control of the styled
 elements i.e `var(--radius)` can be used to control how rounded
 the elements in your design are.
-- 
-- 
