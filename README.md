@@ -44,7 +44,7 @@ flagship is prepared to take you anywhere.
 
 Styling is generally done directly on the elements where possible
 with an escape hatch `.unstyled` class to remove it in cases
-where you might not, for example, want an input to look like an
+where you might, for example, want an input to *not* look like an
 input.
 
 This keeps styles reusable and automatic with an option to move
