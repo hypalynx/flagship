@@ -24,7 +24,7 @@ flagship is prepared to take you anywhere.
 
 - hono (simple yet powerful)
 - SQLite (no cache required and good enough for most tasks) 
-- @db/sqlite (FAST + supports extensions)
+- @db/sqlite (FAST + supports extensions + custom functions)
 
 ### Client
 
